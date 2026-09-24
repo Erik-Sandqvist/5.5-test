@@ -5,6 +5,8 @@
   const views = { home: $('#view-home'), shop: $('#view-shop'), product: $('#view-product') };
   let current = null;
 
+  
+
   function show(name) {
     Object.entries(views).forEach(([k, el]) => { el.hidden = k !== name; });
     if (name !== 'product') RV.hideProduct();
