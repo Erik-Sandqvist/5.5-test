@@ -9,7 +9,7 @@ Alla motiv, konstnärer, priser och omdömen är påhittade.
 Sajten är ren HTML, CSS och JavaScript utan byggsteg.
 
 ```bash
-npm run serve        # eller: python3 -m http.server 5173
+npm run dev          # eller: python3 -m http.server 5173
 ```
 
 Öppna sedan <http://localhost:5173>. Det går också att öppna `index.html` direkt i webbläsaren.
